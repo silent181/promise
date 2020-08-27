@@ -1,4 +1,4 @@
-import MessageQueue from './MessageQueue/index.js';
+import MessageQueue from './index.js';
 
 const timeout = ms => new Promise(resolve => {
     setTimeout(resolve, ms);
